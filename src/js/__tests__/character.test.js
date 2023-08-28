@@ -1,4 +1,4 @@
-import Character from '../character';
+import Character from '../class/character';
 
 test('should throw an error if the name is less than 2 characters', () => {
   expect(() => new Character('a', 'Swordsman')).toThrow('Некорректное имя персонажа');

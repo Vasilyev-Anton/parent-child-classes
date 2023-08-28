@@ -1,6 +1,9 @@
-import {
-  Bowman, Swordsman, Magician, Daemon, Undead, Zombie,
-} from '../childClass';
+import Bowman from '../class/Bowman';
+import Daemon from '../class/Daemon';
+import Magician from '../class/Magician';
+import Swordsman from '../class/Swordsman';
+import Undead from '../class/Undead';
+import Zombie from '../class/Zombie';
 
 test.each([
   ['John', Bowman, 25],
